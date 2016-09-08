@@ -1321,10 +1321,10 @@ class EED_Single_Page_Checkout  extends EED_Module {
 				sprintf(
 					__( '%1$sEvent Registration Powered by Event Espresso%2$sEvent Registration and Ticketing%3$s Powered by %4$sEvent Espresso - Event Registration and Management System for WordPress%5$sEvent Espresso%6$s', 'event_espresso' ),
 					'<div id="espresso-registration-footer-dv"><a href="' . $url . '" title="',
-					'" target="_blank">',
+					'" target="_blank" rel="nofollow">',
 					'</a>',
 					'<a href="' . $url . '" title="',
-					'" target="_blank">',
+					'" target="_blank" rel="nofollow">',
 					'</a></div>'
 				)
 			);
